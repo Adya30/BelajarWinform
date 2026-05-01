@@ -19,7 +19,7 @@ namespace BelajarWinform
 
             if (usernameInput == username && passwordInput == password)
             {
-                MessageBox.Show("Login Berhasil!", "Sukse", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login Berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 Dashboard dashboard = new Dashboard(usernameInput);
                 dashboard.Show();
